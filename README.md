@@ -120,9 +120,9 @@ x = cities_df_filter["lat"]
 y = cities_df_filter["Cloudiness %"]
 
 plt.scatter(x, y, marker="o", facecolors="gray", edgecolors="black")
-plt.title("Temperature vs Latitude")
+plt.title("Cloudiness % vs Latitude")
 plt.xlabel("Latitude")
-plt.ylabel("Temperature (F)")
+plt.ylabel("Cloudiness %")
 
 plt.show()
 
@@ -131,9 +131,9 @@ x = cities_df_filter["lat"]
 y = cities_df_filter["Wind Speed (mph)"]
 
 plt.scatter(x, y, marker="*", facecolors="blue", edgecolors="black")
-plt.title("Temperature vs Latitude")
+plt.title("Wind Speed (mph) vs Latitude")
 plt.xlabel("Latitude")
-plt.ylabel("Temperature (F)")
+plt.ylabel("Wind Speed (mph)")
 
 plt.show()
 
@@ -142,8 +142,8 @@ x = cities_df_filter["lat"]
 y = cities_df_filter["Humidity %"]
 
 plt.scatter(x, y, marker="o", facecolors="purple", edgecolors="black")
-plt.title("Temperature vs Latitude")
+plt.title("Humidity % vs Latitude")
 plt.xlabel("Latitude")
-plt.ylabel("Temperature (F)")
+plt.ylabel("Humidity %")
 
 plt.show()
